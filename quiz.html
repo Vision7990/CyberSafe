@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberSafe – Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CyberSafe</h1>
+        <p>Lär dig skydda dig online</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="password.html">Lösenord &amp; MFA</a>
+        <a href="phishing.html">Phishing</a>
+        <a href="malware.html">Malware</a>
+        <a href="mobile.html">Mobilsäkerhet</a>
+        <a href="social-media.html">Sociala medier</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="sources.html">Källor</a>
+    </nav>
+
+    <main>
+
+        <section id="quiz-container">
+
+            <h2>🧠 CyberSafe Quiz</h2>
+
+            <p>Testa dina kunskaper om cybersäkerhet!</p>
+
+            <p>
+                Lär dig om lösenord, MFA, phishing,
+                malware, mobilsäkerhet och sociala medier.
+            </p>
+
+            <article class="quiz-progress">
+
+                <p id="question-number">Välj en nivå</p>
+
+                <div id="progress-bar">
+                    <span id="progress"></span>
+                </div>
+
+            </article>
+
+            <article id="question-container">
+                <!-- Frågorna visas här -->
+            </article>
+
+            <article id="feedback" class="feedback">
+                <!-- Feedback visas här -->
+            </article>
+
+            <article class="quiz-buttons">
+
+                <button id="back-button" type="button">
+                    ← Tillbaka
+                </button>
+
+                <button id="answer-button" type="button">
+                    Svara
+                </button>
+
+                <button id="next-button" type="button">
+                    Nästa →
+                </button>
+
+            </article>
+
+        </section>
+
+        <section id="result-container" style="display: none;">
+
+            <h2>🎉 Quizet är klart!</h2>
+
+            <p id="score-text"></p>
+
+            <p id="result-message"></p>
+
+            <div class="quiz-buttons">
+
+                <button id="nextlevelButton" type="button">
+                    Nästa nivå →
+                </button>
+
+                <button id="restart-button" type="button">
+                    🔄 Gör quizet igen
+                </button>
+
+                <button id="level-menu-button" type="button">
+                    🎯 Till nivåmenyn
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CyberSafe</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
